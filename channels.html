@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>السياسات والحقوق القانونية الكاملة | نُّــوْفَــاٰرِيْــنُّ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+margin:0;
+font-family:'Tajawal',sans-serif;
+background:#000;
+color:#fff;
+line-height:1.8;
+}
+
+/* 🔥 الأزرار اللي أضفناها بدون ما نمس المحتوى */
+.circle-btn{
+position:fixed;
+top:20px;
+width:46px;
+height:46px;
+border-radius:50%;
+background:#111;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:20px;
+cursor:pointer;
+z-index:50;
+transition:.3s;
+}
+.circle-btn:hover{background:#7a1414;}
+.social-btn{left:20px;}
+.home-btn{right:20px;}
+
+/* زر القائمة */
+.social-menu{
+position:fixed;
+top:70px;
+left:20px;
+background:#111;
+padding:20px;
+border-radius:12px;
+display:none;
+flex-direction:column;
+gap:15px;
+z-index:60;
+}
+.social-menu.active{display:flex;}
+.social-menu a{
+display:flex;
+align-items:center;
+gap:8px;
+color:#fff;
+text-decoration:none;
+font-size:16px;
+background:#222;
+padding:10px 12px;
+border-radius:50px;
+}
+
+/* قائمة الصفحات */
+.pages-overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.85);
+display:none;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:25px;
+z-index:100;
+}
+.pages-overlay.active{display:flex;}
+.pages-overlay a{
+color:#fff;
+text-decoration:none;
+font-size:22px;
+transition:.3s;
+}
+.pages-overlay a:hover{color:#7a1414;}
+.close-btn{
+position:absolute;
+top:25px;
+left:25px;
+font-size:30px;
+cursor:pointer;
+}
+
+/* 🔥 محتوى السياسات (لم نغيره أبداً) */
+.header{
+text-align:center;
+padding:90px 20px 50px;
+background:#111;
+border-bottom:3px solid #7a1414;
+}
+
+.header h1{
+font-size:32px;
+}
+
+.section{
+margin:40px 25px;
+padding:30px;
+background:#111;
+border-radius:20px;
+position:relative;
+transition:.3s;
+}
+
+.section:hover{
+transform:scale(1.02);
+border:1px solid #7a1414;
+}
+
+.section h2{
+color:#7a1414;
+margin-bottom:15px;
+}
+
+.section::before{
+content:"";
+position:absolute;
+right:0;
+top:25px;
+bottom:25px;
+width:4px;
+background:#7a1414;
+border-radius:10px;
+}
+
+.back-btn{
+display:block;
+width:85%;
+margin:60px auto;
+text-align:center;
+background:#7a1414;
+color:#fff;
+padding:16px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.back-btn:hover{
+background:#a61d1d;
+transform:scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🔥 الأزرار المضافة نفس موقعك -->
+
+<div class="circle-btn social-btn" onclick="toggleSocial()">
+<i class="fas fa-ellipsis-v"></i>
+</div>
+
+<div class="circle-btn home-btn" onclick="togglePages()">
+اطلب الان
+</div>
+
+<div class="social-menu" id="social">
+<a href="https://wa.me/212601432914"><i class="fab fa-whatsapp"></i> واتساب</a>
+<a href="https://www.google.com/maps/search/?api=1&query=برج+قلب+الطائف" target="_blank">
+<i class="fas fa-map-marker-alt"></i> موقع المتجر
+</a>
+</div>
+
+<div class="pages-overlay" id="pages">
+<div class="close-btn" onclick="togglePages()">✕</div>
+<a href="index.html">الرئيسية</a>
+<a href="elite.html">نخبة نُّــوْفَــاٰرِيْــنُّ</a>
+<a href="docs.html">صحيفة نُّــوْفَــاٰرِيْــنُّ</a>
+<a href="branches.html">فروع نُّــوْفَــاٰرِيْــنُّ</a>
+<a href="channels.html"> سياسه الموقع</a>
+</div>
+
+
+<!-- 🔥 المحتوى الأصلي بدون أي تعديل -->
+
+<div class="header">
+<h1>⚖️ السياسات القانونية الشاملة والعالمية</h1>
+<p>وثيقة حقوق وواجبات رسمية تحمي المتجر والعملاء وفق الأنظمة المحلية والدولية</p>
+</div>
+
+<div class="section">
+<h2>📌 1. حقوق الملكية الفكرية الكاملة</h2>
+<p>
+جميع المحتويات داخل الموقع من:
+تصاميم – أكواد – صور – فيديوهات – شعارات – نصوص – أفكار – نظام برمجي –
+محفوظة بالكامل باسم المتجر.
+يمنع النسخ أو التعديل أو إعادة النشر أو إعادة الاستخدام بدون إذن رسمي مكتوب.
+أي انتهاك يعرض المخالف للمطالبة القانونية والتعويض المالي.
+</p>
+</div>
+
+<div class="section">
+<h2>🛒 2. شروط الطلب والتعامل</h2>
+<p>
+الطلبات تتم فقط عبر القنوات الرسمية.
+المتجر غير مسؤول عن أي تعامل خارج الموقع أو الحسابات الرسمية.
+عند تأكيد الطلب يعتبر العميل موافق على جميع الشروط.
+</p>
+</div>
+
+<div class="section">
+<h2>💰 3. سياسة الدفع</h2>
+<p>
+الدفع يتم عبر الوسائل المعتمدة.
+الأسعار قابلة للتغيير في أي وقت.
+في حال إلغاء الطلب بعد التأكيد قد يتم خصم رسوم إدارية.
+</p>
+</div>
+
+<div class="section">
+<h2>🔄 4. سياسة الاسترجاع والاستبدال</h2>
+<p>
+يتم الاسترجاع فقط في حال وجود خطأ من طرف المتجر.
+لا يتم استرجاع المنتجات بعد الاستخدام.
+الاستبدال يخضع لتقييم الإدارة.
+</p>
+</div>
+
+<div class="section">
+<h2>🔐 5. حماية البيانات والخصوصية</h2>
+<p>
+نحافظ على بيانات العملاء بسرية تامة.
+لا يتم بيع أو مشاركة البيانات مع أطراف خارجية.
+البيانات تستخدم فقط لإتمام العمليات وتحسين الخدمة.
+</p>
+</div>
+
+<div class="section">
+<h2>🌍 6. البنود القانونية الدولية</h2>
+<p>
+الموقع يعمل وفق قوانين التجارة الإلكترونية المعترف بها دولياً.
+أي نزاع قانوني يتم الرجوع فيه إلى الجهات القضائية المختصة.
+المتجر يحتفظ بحق المطالبة بالتعويض في حال الإضرار بسمعته أو محتواه.
+</p>
+</div>
+
+<div class="section">
+<h2>⚖️ 7. إخلاء المسؤولية الكامل</h2>
+<p>
+المتجر غير مسؤول عن سوء استخدام المنتجات.
+المسؤولية تنتهي بعد تسليم الطلب بحالة سليمة.
+الموقع يقدم الخدمة كما هي دون ضمانات إضافية خارج ما تم الاتفاق عليه.
+</p>
+</div>
+
+<div class="section">
+<h2>🚫 8. حماية النظام والموقع</h2>
+<p>
+يمنع محاولة الاختراق أو الهندسة العكسية أو التلاعب بالنظام.
+يتم تسجيل أي نشاط مشبوه وقد يتم اتخاذ إجراءات قانونية.
+</p>
+</div>
+
+<div class="section">
+<h2>📜 9. حقوق التعويض والمطالبة</h2>
+<p>
+في حال حدوث ضرر مادي أو معنوي بسبب إساءة استخدام الموقع،
+يحق للمتجر المطالبة بتعويض قانوني وفق الأنظمة المعمول بها.
+</p>
+</div>
+
+<div class="section">
+<h2>🛡️ 10. تحديث السياسات</h2>
+<p>
+يحق للإدارة تعديل هذه السياسات في أي وقت دون إشعار مسبق.
+تعتبر التعديلات سارية بمجرد نشرها على الموقع.
+</p>
+</div>
+
+<a href="index.html" class="back-btn">
+⬅ العودة إلى الصفحة الرئيسية
+</a>
+
+<script>
+function toggleSocial(){
+document.getElementById("social").classList.toggle("active");
+}
+function togglePages(){
+document.getElementById("pages").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
